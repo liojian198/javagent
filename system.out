@@ -1,0 +1,58 @@
+--------agentOps-------->null
+java.net.URI.access$002(java.net.URI,java.lang.String)
+java.net.URI.toString()
+[]
+return:file:/C:/Users/NING%20MEI/AppData/Local/Temp/captureAgent1jars/debugger-agent.jar
+[file:/C:/Users/NING%20MEI/AppData/Local/Temp/captureAgent1jars/debugger-agent.jar, file:/C:/Users/NING%20MEI/AppData/Local/Temp/captureAgent1jars/debugger-agent.jar]
+return:file:/C:/Users/NING%20MEI/AppData/Local/Temp/captureAgent1jars/debugger-agent.jar
+java.net.URI.access$702(java.net.URI,java.lang.String)
+java.net.URI.toString()
+[]
+return:file:/C:/Users/NING%20MEI/AppData/Local/Temp/captureAgent1jars/debugger-agent.jar
+[file:/C:/Users/NING%20MEI/AppData/Local/Temp/captureAgent1jars/debugger-agent.jar, file]
+return:file
+java.net.URI.access$1402(java.net.URI,java.lang.String)
+java.net.URI.toString()
+[]
+return:file:/C:/Users/NING%20MEI/AppData/Local/Temp/captureAgent1jars/debugger-agent.jar
+[file:/C:/Users/NING%20MEI/AppData/Local/Temp/captureAgent1jars/debugger-agent.jar, /C:/Users/NING%20MEI/AppData/Local/Temp/captureAgent1jars/debugger-agent.jar]
+return:/C:/Users/NING%20MEI/AppData/Local/Temp/captureAgent1jars/debugger-agent.jar
+java.net.URI.access$1002(java.net.URI,java.lang.String)
+java.net.URI.toString()
+[]
+return:file:/C:/Users/NING%20MEI/AppData/Local/Temp/captureAgent1jars/debugger-agent.jar
+[file:/C:/Users/NING%20MEI/AppData/Local/Temp/captureAgent1jars/debugger-agent.jar, /C:/Users/NING%20MEI/AppData/Local/Temp/captureAgent1jars/debugger-agent.jar]
+return:/C:/Users/NING%20MEI/AppData/Local/Temp/captureAgent1jars/debugger-agent.jar
+java.net.URI.getScheme()
+[]
+return:file
+java.net.URI.getAuthority()
+[]
+return:null
+java.net.URI.getFragment()
+[]
+return:null
+java.net.URI.getQuery()
+[]
+return:null
+java.net.URI.getPath()
+[]
+return:/C:/Users/NING MEI/AppData/Local/Temp/captureAgent1jars/debugger-agent.jar
+javassist.CannotCompileException: no method body
+	at javassist.CtBehavior.insertAfter(CtBehavior.java:815)
+	at javassist.CtBehavior.insertAfter(CtBehavior.java:792)
+	at com.bin.agent.samples.sample1.InjectPrintTransformer.transform(InjectPrintTransformer.java:24)
+	at sun.instrument.TransformerManager.transform(TransformerManager.java:188)
+	at sun.instrument.InstrumentationImpl.transform(InstrumentationImpl.java:428)
+	at sun.misc.PostVMInitHook$2.run(PostVMInitHook.java:97)
+	at sun.misc.PostVMInitHook$2.run(PostVMInitHook.java:95)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.misc.PostVMInitHook.getEnvPrivileged(PostVMInitHook.java:95)
+	at sun.misc.PostVMInitHook.getOSSpecificConfigFilePath(PostVMInitHook.java:84)
+	at sun.misc.PostVMInitHook.getConfigFilePrivileged(PostVMInitHook.java:54)
+	at sun.misc.PostVMInitHook.trackJavaUsage(PostVMInitHook.java:34)
+	at sun.misc.PostVMInitHook.run(PostVMInitHook.java:26)
+sun.launcher.LauncherHelper.makePlatformString(boolean,byte[])
+[true, [B@6f7fd0e6]
+return:com.bin.agent.samples.sample1.AgentTest
+start

@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Premain-Class: com.bin.agent.samples.sample2.Agent
+Can-Redefine-Classes: true
+Can-Retransform-Classes: true
+Can-Set-Native-Method-Prefix: true
